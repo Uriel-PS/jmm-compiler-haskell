@@ -25,7 +25,7 @@ Code Generation        →  Gerador.hs   (emits Jasmin assembly, .j file)
 Jasmin Assembler      →  .class file (JVM bytecode)
       │
       ▼
-     JVM              →  java <ClassName>
+JVM                    →  java <ClassName>
 ```
 
 - **Alex**: generates the lexer from `Lex.x`, tokenizing the source code.
@@ -84,6 +84,6 @@ teste.j--    # Example J-- source file
 jasmin.jar   # Jasmin assembler, used to assemble the generated .j file
 ```
 
-## Author
+## Authors
 
-Uriel Pacheco de Souza
+Uriel Pacheco de Souza and [Kelwin Efrain Bagnhuk da Silva](https://www.linkedin.com/in/kelwin-efrain-bagnhuk-da-silva-4a9331407/)
